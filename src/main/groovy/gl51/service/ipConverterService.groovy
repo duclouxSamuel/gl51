@@ -1,6 +1,6 @@
 package gl51.service
 
-import gl51.data.ip
+import gl51.data.Ip
 
 /**
  * ceci convertit des IP en string
@@ -8,8 +8,8 @@ import gl51.data.ip
 interface IpConverterService {
     /**
      * convertit une IP en string
-     * @param ip l'ip a convertir
+     * @param ip l'ip à convertir
      * @return
      */
-    String getIpAndConvert(ip ip)
+    String getIpAndConvert(Ip ip)
 }

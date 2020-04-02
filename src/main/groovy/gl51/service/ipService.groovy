@@ -5,4 +5,5 @@ import gl51.data.Ip
 interface ipService {
 
     Ip fetchIp()
+
 }
