@@ -5,7 +5,6 @@ import gl51.movie.data.Movie
 /**
  * stores movie
  */
-// Alt + Enter => implement interface
 interface MovieRegistry {
     /**
      * adds a film to favorites
